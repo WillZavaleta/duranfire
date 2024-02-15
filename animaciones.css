@@ -1,0 +1,50 @@
+.fadeTop {
+    opacity: 0; 
+    transform: translate(0, 15vh);
+    transition: all 1s;
+}
+.fadeRight {
+    opacity: 0;
+    transform: translate(15vh, 0vh);
+    transition: all 1s;
+}
+
+.fadeLeft {
+    opacity: 0;
+    transform: translate(-15vh, 0vh);
+    transition: all .6s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+    
+}
+
+.linea-animate-in{
+    transform: scaleX(0);    
+    transition: all 0.5s;
+    
+}
+.linea-animate-out{
+    transform: scaleX(1);
+    
+}
+
+.menuoculto {
+    opacity: 0;
+    position: fixed;
+}
+
+.menuvisible {
+    /*position: fixed !important;*/
+    background: rgb(243 146 3 / 95%) !important;
+    /*rgb(235 168 58 / 90%)*/
+    height: 80px; 
+    
+}
+
+.opcionesmenu {
+    color: #3f3d56 !important;
+}
+
